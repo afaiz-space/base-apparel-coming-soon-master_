@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article class="child_container--1">
+        <img class="logo" src="images/logo.svg" alt="Base Apparel logo" />
+        <img class="hero-mobile" src="images/hero-mobile.jpg" alt="Base Apparel logo" />
+        <h1>We're</h1>
+        <h2>coming soon</h2>
+
+        <p class="description">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <div>
+
+        <div class="search-bar">
+          <input
+            id="email"
+            type="email"
+            placeholder="Email Address"
+            name="email"
+          />
+          <div class="btn-section">
+          <span id="image" class="error-icon"></span>
+          <button id="click" onclick="validation()">
+            <img src="images/icon-arrow.svg" alt="icon_arrow" />
+          </button>
+        </div>
+        </div>
+        <span id="error"></span>
+      </div>
+        <footer>
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">faizan</a>.
+          </p>
+        </footer>
+      </article>
+      <figure class="child_container--2"></figure>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
