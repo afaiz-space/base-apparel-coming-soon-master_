@@ -127,7 +127,7 @@ button:hover {
   margin-top: 10px;
   margin-left: 20px;
   display: block;
-  color: red;
+ 
   font-family: var(--family);
   font-size: 14px;
 }
@@ -152,14 +152,14 @@ footer{
   .container {
     
     flex-direction: column-reverse;
-    /* border: 2px solid red; */
+    
   }
   .child_container--1 {
     width: 100%;
     padding: 3em ;
     text-align: center;
     justify-content: space-evenly;
-    /* border: 2px solid red; */
+   
   }
 
   .hero-mobile{
